@@ -15,6 +15,7 @@ $png_file
 AA preprocessor container 수행
 
 docker start $aa_preprocessor      --> docker container 시작
+
 docker exec $aa_preprocessor sh precoess.sh [-i] $hci_file [-o] $png_file
   이안에서 hci2png conversion이 일어남
 
