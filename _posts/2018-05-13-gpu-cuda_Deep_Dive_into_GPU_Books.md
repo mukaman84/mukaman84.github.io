@@ -1,10 +1,7 @@
 ---
 layout: post
-title:  "Natural Language Processing study"
+title:  "GPU architecture and CUDA programming"
 ---
-
- 최근 natural language 공부를 시작하였습니다.
-
 본 페이지에서는 GPU의 대표 모델별 architecture와 CUDA 프로그래밍
 
 
