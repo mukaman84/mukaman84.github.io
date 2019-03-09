@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "GPU architecture and CUDA programming"
+title:  "Bayesian Neural Net Introduction"
 ---
-본 페이지에서는 bayesian neural network에 대해서 정리하기위 해사 용되었다.
+In this post, Let me introduce and explain Baysian Nerural Networks
+---
+
+
 
 
 먼저 GPU의 주된 처리 방식에 대해서 정리해본다.
