@@ -7,12 +7,9 @@ title:  "Bayesian Neural Net Introduction"
 
 본 포스트에서는 Baysian Nerural Networks에 대해서 기초부터 최신 논문 동향까지를 기술한다.
 
-먼저 기본적인 설명은 [Bayesian Neural Network](https://medium.com/neuralspace/bayesian-neural-network-series-post-1-need-for-bayesian-networks-e209e66b70b2)
+먼저 기본적인 설명은 [Bayesian Neural Network][1] post를 참고하여 재구성하였다.
 
 
- post를 참고하여 재구성하였다.
-
-https://medium.com/neuralspace/bayesian-neural-network-series-post-1-need-for-bayesian-networks-e209e66b70b2 는 
 
 
 
@@ -36,6 +33,10 @@ https://medium.com/neuralspace/bayesian-neural-network-series-post-1-need-for-ba
 
 -> 즉 gpu 제조사는 이러한 한계속에서 공통 메모리 공간을 다루는 것이 중요한 개발 목표가 됨 -> cpu 제조사도 마찬가지인듯?
 예로 CPU 제조사에서 고 대역폭 요구사항을 맞춰 주기 위하여 일반적으로 cpu에서 사용되는 DDR3/4 메모리 경우 대역폭이 부족하여 GDDR DRAM등의 방법으로 메모리 대역폭을 개선중에 있다. 또한 L4 캐시를 장착하여 GPU가 요구하는 높은 메모리 대역을 실현하고 있다.zz
+
+
+[1]: https://medium.com/neuralspace/bayesian-neural-network-series-post-1-need-for-bayesian-networks-e209e66b70b2
+[2]: http://www.facebook.com
 
 
 
