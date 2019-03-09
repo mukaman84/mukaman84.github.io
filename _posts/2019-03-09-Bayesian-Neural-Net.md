@@ -35,8 +35,7 @@ title:  "Bayesian Neural Net Introduction"
 예로 CPU 제조사에서 고 대역폭 요구사항을 맞춰 주기 위하여 일반적으로 cpu에서 사용되는 DDR3/4 메모리 경우 대역폭이 부족하여 GDDR DRAM등의 방법으로 메모리 대역폭을 개선중에 있다. 또한 L4 캐시를 장착하여 GPU가 요구하는 높은 메모리 대역을 실현하고 있다.zz
 
 
-[1]: https://medium.com/neuralspace/bayesian-neural-network-series-post-1-need-for-bayesian-networks-e209e66b70b2
-[2]: http://www.facebook.com
+
 
 
 
@@ -48,3 +47,7 @@ title:  "Bayesian Neural Net Introduction"
 CUDNN은 딥러닝을 위해서 반복적으로 사용되는 컨볼루션, 폴링, signoid, Batchnorm(?)과 같은 기본적인 기능들을 정해진 알고리즘에 따라서 cuda 프로그래밍으로 사전에 구현해 놓은 라이브러리를 가리킨다. 예로 컨볼루션의 경우 gemm, fast gemm, FFT, Winograd 알고리즘이 대표적인 것이다.
 아래의 그림은 gemm을 CUDA 프로그래밍으로 구현하는 기본 메카니즘을 보여준다.
 ![Bayesian_Net](https://cdn-images-1.medium.com/max/1200/1*n6Td0BSmvCGaTYaIJEqF-g.png)
+
+
+[1]: https://medium.com/neuralspace/bayesian-neural-network-series-post-1-need-for-bayesian-networks-e209e66b70b2
+[2]: http://www.facebook.com
