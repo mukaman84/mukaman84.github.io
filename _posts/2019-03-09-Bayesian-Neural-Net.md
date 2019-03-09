@@ -2,13 +2,19 @@
 layout: post
 title:  "Bayesian Neural Net Introduction"
 ---
-In this post, Let me introduce and explain Baysian Nerural Networks
+ Baysian Nerural Networks
 ---
 
+본 포스트에서는 Baysian Nerural Networks에 대해서 기초부터 최신 논문 동향까지를 기술한다.
+
+먼저 기본적인 설명은 [Bayesian Neural Network](https://medium.com/neuralspace/bayesian-neural-network-series-post-1-need-for-bayesian-networks-e209e66b70b2)
 
 
+ post를 참고하여 재구성하였다.
 
-먼저 GPU의 주된 처리 방식에 대해서 정리해본다.
+https://medium.com/neuralspace/bayesian-neural-network-series-post-1-need-for-bayesian-networks-e209e66b70b2 는 
+
+
 
 
 
