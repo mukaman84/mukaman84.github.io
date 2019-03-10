@@ -9,9 +9,7 @@ title:  "Bayesian Neural Net Introduction"
 
 먼저 기본적인 설명은 [Bayesian Neural Network][1] post를 참고하여 재구성하였다.
 
-
-
-
+[Bayesian Neural Network][1] postsms 8개의 post를 통해서 설명하고 있다. 이 중 본 post는 첫 번째인 Need for Bayesian Neural Networks [Bayesian Neural Network][1]를 주로 참조하였다.
 
 
 
