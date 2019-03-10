@@ -53,6 +53,42 @@ Bayes by backprop는 [Blundell, et al.][3]에 의해서 처음 도입되었다. 
 ![Bayes theorem](https://cdn-images-1.medium.com/max/800/1*7iOrI5jb6Dae630hCYENjA.png)
 일반적으로 supervised NN은 data x가 주어질 경우 model parameters θ를 찾는 문제로, 이로부터 posterior probability P(θ|x)가 정의된다.
 여기서 P(θ) 는 prior이며, P(x|θ) which is the likelihood로 data distribution을 갖는다. 
+여기서 P(x)는 evidence로 모델로 부터 생성된다. 즉 다음과 같이 얻어진다.
+![p_x_evidence](https://cdn-images-1.medium.com/max/800/1*FzrX_7Qb7m1n6eXO2zrE9Q.png) 
+여기서 알 수 있듯이 p(x)를 얻기위해서는 모든 모델 파라미터와 x가 결합되었을떄 발생하는 모든 경우의수를 얻어야하는데, 이는 모델 파라미터의 엄청난 수로 인해 불가능하다. 따라서 이를 approximate하는 방식이 필요한데, 요새는 variational inference라는 모델이 사용된다.
+이 방법외에 (Markov Chain Monte Carlo and Monte Carlo Dropout.)방식도 사용된다.
+
+
+
+## Variational Inference
+variation inference 방식으로 풀기 위해 각 probabilty는 density function을 갖으며, 이를 예측하는 문제라고 가정한다. 따라서 알려진 distribution중에 하나를 target density function으로 가정하는 것으로부터 시작한다. 이로부터 우리가 찾는 문제는 posterior probability와 true distrbition간의 거리를 최대한 가깝게 만드는 것을 목표로한다. 이를 위해서 사용되는 기술이 the Kullback-Liebler (KL) divergence이다.
+
+예로 모델의 웨이트 파라미터를 w, Data를 D라하면 true posterior probability를 P(w|D)라 할수 있으며, 다른 distribution은 q(w|D)라 할 수 있다.
+이때 KL divergence는 다음과 같이 정의된다.
+![KL_divergence](https://cdn-images-1.medium.com/max/800/1*b08FgIvbikjpX0ZTraY1sg.png) 
+
+이 최적화 문제를 풀어보면 다음과 같이 전개되는데 ingegral function으로 인해 사실상 푸는 것이 불가능하다.
+![KL_divergence2](https://cdn-images-1.medium.com/max/1200/1*sZGFVuHKPZdhROYNWEy9YQ.png)
+식에서 보면 알 수 있듯이 true posterior function p(w|D)는 사실상 다루기 어렵기 때문에 q(W|D)를 근사화하여 문제를 푸는 것이 훨씬 용이하다.
+
+이에 다음과 같이 모델을 근사화 할 수 있다.
+
+![KL_divergence3](https://cdn-images-1.medium.com/max/1200/1*88qCMa1S_2v-dWSbtwEG_A.png)
+
+이제 이 모델은 train이 가능한 형태이다
+왜??? -> 이해하기 매우어렵지만 좀더 진행후 이해해보고자 한다.
+
+그러나 이해하기 앞서 수식에서 보이는 것처럼 weight의 수에 영향을 받기 때문에 weight pruning 기술을 적용하여 networkdml sparsity를 감소시켜 네트워크의 성능을 감소시키지 않는 선에서 모델의 파라미터의 수를 감소시킬 필요가 있다.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,5 +103,5 @@ Bayes by backprop는 [Blundell, et al.][3]에 의해서 처음 도입되었다. 
 [1]: https://medium.com/neuralspace/bayesian-neural-network-series-post-1-need-for-bayesian-networks-e209e66b70b2
 [2]: https://medium.com/neuralspace/bayesian-neural-network-series-post-2-background-knowledge-fdec6ac62d43
 [3]: https://arxiv.org/abs/1505.05424
-[4]: 
+[4]: https://medium.com/neuralspace/probabilistic-deep-learning-bayes-by-backprop-c4a3de0d9743
 [5]: 
