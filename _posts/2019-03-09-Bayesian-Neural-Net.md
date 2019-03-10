@@ -81,6 +81,10 @@ variation inference 방식으로 풀기 위해 각 probabilty는 density functio
 그러나 이해하기 앞서 수식에서 보이는 것처럼 weight의 수에 영향을 받기 때문에 weight pruning 기술을 적용하여 networkdml sparsity를 감소시켜 네트워크의 성능을 감소시키지 않는 선에서 모델의 파라미터의 수를 감소시킬 필요가 있다.
 
 
+![Bayesian_inference_total_form](https://cdn-images-1.medium.com/max/800/1*lTZBJeYsohUk7RaFrgg1Jg.png)
+
+![bayes_theorem](https://cdn-images-1.medium.com/max/800/1*n7hGf0h9Q-nwyUex1889Zg.png)
+
 
 
 
@@ -104,4 +108,6 @@ variation inference 방식으로 풀기 위해 각 probabilty는 density functio
 [2]: https://medium.com/neuralspace/bayesian-neural-network-series-post-2-background-knowledge-fdec6ac62d43
 [3]: https://arxiv.org/abs/1505.05424
 [4]: https://medium.com/neuralspace/probabilistic-deep-learning-bayes-by-backprop-c4a3de0d9743
-[5]: 
+[5]: https://github.com/kumar-shridhar/Master-Thesis-BayesianCNN
+[6]: https://medium.com/neuralspace/probabilistic-deep-learning-bayes-by-backprop-c4a3de0d9743
+[7]: https://arxiv.org/pdf/1901.02731.pdf
