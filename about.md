@@ -10,12 +10,12 @@ E-mail: leedongyull@gmail.co.kr
 
 [Current]
 
-> 2015.3 ~ : Principal Research Engineer in ADAS & Autonomous Driving Team in Hyundai Mobis 
+> 2015.3 ~ : Principal Research Engineer in ADAS & Autonomous Driving Team in Hyundai Mobis \ 
 > Research area : Vision Recognition with Deep learning
 
 [Previous]
-> 2003.02 ~ 2008.02: Ajou university(Undergraduate course)
-> 2008.03 ~ 2015.02: Ajou university(Master & Ph.D integrated course)
+> 2003.02 ~ 2008.02: Ajou university(Undergraduate course) \ 
+> 2008.03 ~ 2015.02: Ajou university(Master & Ph.D integrated \  course)
 
 
 ### Research Area
