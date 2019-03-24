@@ -4,11 +4,8 @@ title: About me
 ---
 
 ##Dongyul Lee
-E-mail: leedongyull@gmail.co.kr
+E-mail: leedongyull@gmail.co.kr  
 
-Taken is based on [chapter tumblr theme.](http://theme-chapter.tumblr.com/)
-
-You can fork taken from [here.](https://github.com/vfalanis/taken)
 [Current]
 
 > 2015.3 ~ : Principal Research Engineer in ADAS & Autonomous Driving Team in Hyundai Mobis  
