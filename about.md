@@ -41,4 +41,4 @@ Contacts
 E-mail: leedongyull@gmail.com
 
 ### Publications
-google scholar : https://scholar.google.co.kr/citations?user=X6e-CywAAAAJ&hl=ko
+[google scholar](https://scholar.google.co.kr/citations?user=X6e-CywAAAAJ&hl=ko)
