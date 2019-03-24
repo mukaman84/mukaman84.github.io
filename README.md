@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# taken
 
-You can use the [editor on GitHub](https://github.com/mukaman84/mukaman84.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Taken is a minimalist two-column jekyll theme based on chapter tumblr theme 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Taken](https://github.com/vfalanis/taken/blob/master/Taken.png)
 
-### Markdown
+## Updates
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Note: There's a stable branch (v1.0) which includes the default taken theme.
+Master and gh-pages branch now include the latest changes:
 
-```markdown
-Syntax highlighted code block
+* Better responsive support ( sidebar collapse)
+* Fade in animations
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+## Features
+* Flickr feed
+* Disqus
+* more ...
 
-1. Numbered
-2. List
+## Demo
+You can see a live demo of "taken" [here](http://vfalanis.github.io/taken)
 
-**Bold** and _Italic_ and `Code` text
+## Instructions
 
-[Link](url) and ![Image](src)
-```
+1. Fork this repository
+2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/taken.git` 
+3. Run it.<br />`jekyll serve`
+4. Go to http://127.0.0.1:4000.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mukaman84/mukaman84.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## To do list:
+* Categories support
+* Add portfolio section
+* Flickr plugin animation and configuration
+* More...
