@@ -1,56 +1,36 @@
-<div class='wrapper'>
-
-  <input data-function='swipe' id='swipe' type='checkbox'>
-  <label data-function='swipe' for='swipe' class="btn btn-default" >Menu</label>
-
-  <div class='content'>
-    {{ content }}
-  </div>
-
-  <div class='sidebar menu'>
-
-      <div id="picture" style="background-image: url(http://www.naturaloil.ph/wp-content/uploads/2015/11/John_Doe.jpg)"></div>
-      <p>{{site.description}}</p>
-
-      <hr>
-
-      <div id="social-icons">
-        <ul>
-            <li><a href="http://facebook.com/{{ site.facebook }}"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://mx.linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="http://github.com/{{ site.github }}"><i class="fa fa-github"></i></a></li>
-            <li><a href="http://{{ site.deviantart }}.deviantart.com"><i class="fa fa-deviantart"></i></a></li>
-            <li><a href="http://codepen.io/{{ site.codepen }}"><i class="fa fa-codepen"></i></a></li>
-        </ul>
-      </div>
-
-       <hr>
-
-       <div class="navigation">
-        <ul>
-            {% for my_page in site.pages %}
-                {% if my_page.title %}
-                <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
     </div>
 
-    <hr>
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
 
-     <div class="navigation">
-             <ul>
-               {% for category in site.categories %}
-                 <li><a href="{{ site.baseurl | prepend: url }}/categories/{{ category | first | prepend: site.baseurl }}">{{ category | first }}</a></li>
-               {% endfor %}
-             </ul>
-     </div>
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+      {% endcomment %}
 
-     <hr>
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
 
-     <p>{{site.footer}}<p>
-     <p>Powered by Jekyll<p>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
+      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+    </nav>
 
+    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
-
 </div>

@@ -1,43 +1,30 @@
 ---
 layout: page
-title: About me
-permalink: /about/
+title: About
 ---
 
-# Dongyul Lee
-E-mail: leedongyull@gmail.co.kr
+<p class="message">
+  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
 
+In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
 
-[Current]
+There are currently two themes built on Poole:
 
-> 2015.3 ~ : Principal Research Engineer in ADAS & Autonomous Driving Team in Hyundai Mobis  
-> Research area : Vision Recognition with Deep learning  
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
 
-[Previous]
-> 2003.02 ~ 2008.02: Ajou university(Undergraduate course)  
-> 2008.03 ~ 2015.02: Ajou university(Master & Ph.D integrated \  course)  
+Learn more and contribute on [GitHub](https://github.com/poole).
 
+## Setup
 
-### Research Area
-> ### Deep learning
-> Panoptic Segmentation  
-> Object detection  
-> Simultaneous Localization and Mapping  
-> Depth map estimation using streo camera  
+Some fun facts about the setup of this project include:
 
-> ### Embedded:
-> Raspberry Pi3 B+ model  
-> V2 Camera  
-> Movidius USB accelerator  
-> Coral USB accelerator  
+* Built for [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
+* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
 
-> ### Interested Area
-> Programming Languages: Python; C++  
-> Collaboration Tools: Github; Slack; Jira/Confluence with Agile process  
-> Deep Learning Framework : Tensorflow with keras, Mxnet with gluon  
+Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
 
-### Contacts
->E-mail: leedongyull@gmail.com  
-
-### Publications
-[google scholar](https://scholar.google.co.kr/citations?user=X6e-CywAAAAJ&hl=ko)
+Thanks for reading!

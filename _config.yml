@@ -1,22 +1,26 @@
-# Site settings
-title: Deep dive into Visual DNN
-email: leedongyull@gmail.com
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
 
-# Sidebar settings
-description: A Vision DNN engineer
-url: "https://mukaman84.github.io"
-baseurl: "" # the subpath of your site, e.g. /blog
+# Setup
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
-# Social icons
-facebook: username
-linkedin: username
-github: username
-deviantart: username
-codepen: username
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
-footer: © Taken theme
+paginate:         5
 
-# Build settings
-markdown: kramdown
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
