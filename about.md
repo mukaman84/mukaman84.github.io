@@ -1,10 +1,10 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-###Dongyul Lee
+# Dongyul Lee
 E-mail: leedongyull@gmail.co.kr
 
 
