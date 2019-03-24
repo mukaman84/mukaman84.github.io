@@ -1,11 +1,13 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-baseurl: "" # the subpath of your site, e.g. /blog
+title: Deep dive into Visual DNN
+email: leedongyull@gmail.com
+
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Sidebar settings
-description: One sentence introducing yourself or what you do
+description: A Vision DNN engineer
+url: "https://mukaman84.github.io"
+baseurl: "" # the subpath of your site, e.g. /blog
 
 # Social icons
 facebook: username
