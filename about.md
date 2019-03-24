@@ -19,26 +19,25 @@ E-mail: leedongyull@gmail.co.kr
 
 
 ### Research Area
-Deep learning : 
-Panoptic Segmentation
-Object detection
-Simultaneous Localization and Mapping
-Depth map estimation using streo camera
+> ##### Deep learning
+> Panoptic Segmentation \
+> Object detection \
+> Simultaneous Localization and Mapping \
+> Depth map estimation using streo camera \
 
-Embedded:
-Raspberry Pi3 B+ model
-V2 Camera
-Movidius USB accelerator
-Coral USB accelerator
+> ##### Embedded:
+> Raspberry Pi3 B+ model \ 
+> V2 Camera \ 
+> Movidius USB accelerator \ 
+>Coral USB accelerator \ 
 
 ### Interested Area
+> Programming Languages: Python; C++ \
+> Collaboration Tools: Github; Slack; Jira/Confluence with Agile process \
+> Deep Learning Framework : Tensorflow with keras, Mxnet with gluon
 
-Programming Languages: Python; C++
-Collaboration Tools: Github; Slack; Jira/Confluence with Agile process
-Deep Learning Framework : Tensorflow with keras, Mxnet with gluon
-
-Contacts
-E-mail: leedongyull@gmail.com
+##### Contacts
+>E-mail: leedongyull@gmail.com
 
 ### Publications
 [google scholar](https://scholar.google.co.kr/citations?user=X6e-CywAAAAJ&hl=ko)
