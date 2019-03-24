@@ -19,24 +19,24 @@ E-mail: leedongyull@gmail.co.kr
 
 
 ### Research Area
-> ##### Deep learning
+> ### Deep learning
 > Panoptic Segmentation  
 > Object detection  
 > Simultaneous Localization and Mapping  
 > Depth map estimation using streo camera  
 
-> ##### Embedded:
+> ### Embedded:
 > Raspberry Pi3 B+ model  
 > V2 Camera  
 > Movidius USB accelerator  
 > Coral USB accelerator  
 
-### Interested Area
+> ### Interested Area
 > Programming Languages: Python; C++  
 > Collaboration Tools: Github; Slack; Jira/Confluence with Agile process  
 > Deep Learning Framework : Tensorflow with keras, Mxnet with gluon  
 
-##### Contacts
+### Contacts
 >E-mail: leedongyull@gmail.com  
 
 ### Publications
