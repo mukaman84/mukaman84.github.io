@@ -117,6 +117,11 @@ binarization으로 convolution 필터를 구현하였고, 이를 저가형 fpga�
 
 
 non-local block -> RNN 사용하지도 않고 시퀀스 데이터에서 성능을 향상 시킬 수 있음
+(어디서 한겨)
+
+CRF 사용 요령
+-> 전처리로 deblur(어떤 deblur 방식이 좋은가?), color normalization
+-> 후처리로는 CRF가 너무 거대하기 때문에 부분적으로 사용
 
 
 
