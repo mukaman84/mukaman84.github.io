@@ -61,3 +61,64 @@ convolution에는 MAC관련 리소스가 엄청 잡아먹는다.
    => 이 경우 멀티 채널 이미지로 만들어 네트워크를 돌리면 효율적이었다.
 
 ㄱ기존 네트워크 두고 새로운 네트워크 제안하는 방식으로 신규 불량, 클래스에 대한 결정을 시행
+
+
+2강- AI 영상 인식 플랫폼 개발과 응용/상용화 동향
+- IoT 기반에서 현대인의 생활 환경의 변화
+
+> google glasses 등 다양한 서비스가 존재
+
+
+1. deep learning with knowledge
+=> semantic map -> 아주 중요
+비젼 정보와 knowledge를 결합하는 시스템
+sensetime의 경우 국가 비전 감시시스템과 유사
+
+2. context-aware service - gps, iot, sensors, automated reasoning and visualization
+
+3. layers of AR Service with IoT
+
+4. AR Techonology Support
+
+5. Technology Maintenance
+
+6. Training with VRA/AR Virtual Experience
+
+
+3강 - 컴퓨터비전 기반 AI 영상인식 및 처리 방식별 으용 기술개발과 서비스 동향
+
+
+이력서에 docker, agile process관련 기술 설명할 것
+- monocular depth
+
+superdepth
+-> super resoultion으로 영상크기 확장하고 이를 이용하여 depth 추정
+-> 3D map construction과 mapping까지 수행함
+
+noise2noise
+resolution에 대해서 psnr을 추출하고 psnr이 최소화되는 방향으로 네트워크 돌려서 노이즈 최소화
+
+gaugan
+2D->3D 변경
+- 중요 포인트 : 배치 노말라이제이션
+=> data 수집에 한계가 있어 이렇게 만드는 것이 빠를수 있다.
+
+video2video synthesize
+=
+> frame과 frame사이의 영상을복원
+
+
+xnor.ai
+저가형 하드웨어 업체
+- fpga 욜로 알고리즘 동작
+
+binarization으로 convolution 필터를 구현하였고, 이를 저가형 fpga로 컨버팅
+차세대 아키텍처 이용
+
+
+
+
+
+
+
+
