@@ -1,59 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3986b687-6fcd-4211-8ef4-a6f24e19c46b" name="Default" comment="change theme by new one">
+    <list default="true" id="3986b687-6fcd-4211-8ef4-a6f24e19c46b" name="Default" comment="add a new blog post about 2019 seminar - face recognition and computer vision">
+      <change afterPath="$PROJECT_DIR$/_posts/2019-03-26-Resume.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GPU_Intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/GPU_Intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PR-01.png" beforeDir="false" afterPath="$PROJECT_DIR$/PR-01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Taken.png" beforeDir="false" afterPath="$PROJECT_DIR$/Taken.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/icon-github.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/icon-github.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/icon-github.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/icon-github.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/icon-twitter.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/icon-twitter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/icon-twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/icon-twitter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/categories.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-02-18-gpu-cuda_(2)_Deep_Dive_into_GPU_Books.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-02-18-gpu-cuda_(2)_Deep_Dive_into_GPU_Books.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-13-gpu-cuda.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-13-gpu-cuda.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-14-cs231n-review.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-14-cs231n-review.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-15-PR-RI-01.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-15-PR-RI-01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-15-shell-practice.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-15-shell-practice.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-16-NLP_DL_lab.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-12-16-NLP_DL_lab.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-12-27-PR-GCN-01.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-12-27-PR-GCN-01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-17-PR-Byesian-NN.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-17-PR-Byesian-NN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-26-컴퓨터비전-기반의-AI-얼굴인식-및-처리와-구현기술-세미나" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-26-Computer-vision-face-recognition.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_syntax-highlighting.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_syntax-highlighting.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/blog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/categories/jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/html5shiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/html5shiv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/respond.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/respond.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/apple-touch-icon-144-precomposed.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/apple-touch-icon-144-precomposed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/hyde.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/hyde.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/poole.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/poole.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/syntax.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/syntax.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp_index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,11 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2019-03-26-Computer-vision-face-recognition.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2019-03-26-Resume.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -126,6 +88,7 @@
         <option value="$PROJECT_DIR$/_posts/2019-03-26-컴퓨터비전-기반의-AI-얼굴인식-및-처리와-구현기술-세미나" />
         <option value="$PROJECT_DIR$/_posts/2019-03-26-Computer-vision-face-recognition" />
         <option value="$PROJECT_DIR$/_posts/2019-03-26-Computer-vision-face-recognition.md" />
+        <option value="$PROJECT_DIR$/_posts/2019-03-26-Resume.md" />
       </list>
     </option>
   </component>
@@ -166,6 +129,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -193,7 +157,7 @@
       <updated>1526127398247</updated>
       <workItem from="1553431869850" duration="8755000" />
       <workItem from="1553440640791" duration="2536000" />
-      <workItem from="1553601617878" duration="1442000" />
+      <workItem from="1553601617878" duration="2926000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1526133775582</created>
@@ -398,11 +362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553442915441</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add a new blog post about 2019 seminar - face recognition and computer vision">
+      <created>1553603147452</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1553603147452</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12733000" />
+    <option name="totallyTimeSpent" value="14217000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +388,7 @@
     <frame x="65" y="24" width="928" height="1056" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5941043" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2993197" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -521,7 +492,8 @@
     <MESSAGE value="change about regular format" />
     <MESSAGE value="change theme as 'Taken'" />
     <MESSAGE value="change theme by new one" />
-    <option name="LAST_COMMIT_MESSAGE" value="change theme by new one" />
+    <MESSAGE value="add a new blog post about 2019 seminar - face recognition and computer vision" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a new blog post about 2019 seminar - face recognition and computer vision" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/html5shiv.js">
@@ -771,8 +743,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2019-03-26-Computer-vision-face-recognition.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="240">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2019-03-26-Resume.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

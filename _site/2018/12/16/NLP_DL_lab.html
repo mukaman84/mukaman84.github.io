@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Natural Language Processing study &middot; Dongyul Lee
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="public/css/poole.css">
+  <link rel="stylesheet" href="public/css/syntax.css">
+  <link rel="stylesheet" href="public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+</head>
+
+
+  <body>
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="">
+          Dongyul Lee
+        </a>
+      </h1>
+      <p class="lead">Welcome to Dongyul DNN space</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+
+      
+
+      
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about.html">About me</a>
+          
+        
+      
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/">DNN Paper review</a>
+          
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+
+
+      <a class="sidebar-nav-item" href="https://github.com/mukaman84">GitHub project</a>
+      <span class="sidebar-nav-item">Currently v2.1.0</span>
+    </nav>
+
+    <p>&copy; 2019. All rights reserved.</p>
+  </div>
+</div>
+
+
+    <div class="content container">
+      <div class="post">
+  <h1 class="post-title">Natural Language Processing study</h1>
+  <span class="post-date">16 Dec 2018</span>
+  <p>최근 natural language 공부를 시작하였습니다.</p>
+
+<p>본 페이지에서는 GPU의 대표 모델별 architecture와 CUDA 프로그래밍</p>
+
+<p>GPU에 대해서 이해를 위해선 먼저 엔비디아의 주요 제품군을 살펴볼 필요가 있다.
+크게 그래픽카드 칩셋인 지포스(GeForce) 시리즈와 컴퓨터 그래픽스 개발를 위해 만들어진
+그래픽 카드 칩셋 쿼드로(Quadro) 시리즈, 그리고 딥러닝과 같은 고성능 컴퓨팅용
+카드인 테슬라(Tesla) 시리즈가 있다.</p>
+
+<p><img src="http://img.danawa.com/images/descFiles/4/520/3519715_1514702757296.png" alt="GPU 구조1" /></p>
+
+<p>이 중 고성능 컴퓨팅 카드인 테슬라 시리즈 분류의 GPU 구조에 대해서 설명한다. 
+위의 그림과 같이 CPU 대비 GUP의 가장 큰 특징은 다수의 ALU로 구성되어 있다는 것인데,
+이는 동시에 수많은 ㄴ벡터연산을 하드웨어 수행이 가능하다는것이다. 이러한 특징이 딥러닝 연산에 최적화되어
+있는 것이다.
+즉, CPU는 ALU 보다는 Controlblock과 cache가 많은 부분 구성되어 있었으나, ALU 연산에는 과도한
+SPEC이기에 이러한 요소를 줄이고 ALU 연산에 최적화 시킨 것이다.</p>
+
+<p>테슬라 시리즈에서 세대별 모델의 순서는 Fermi, kepler, Maxwell, Pascal로 아래의 두 그림과 같다.</p>
+
+<p><img src="https://i.imgur.com/J3b8uJn.png" alt="GPU 구조2" /></p>
+
+<p><img src="http://drmola.com/files/attach/images/56517/096/049/a66371d08d953fa9af604a66c97cbf3e.png" alt="GPU 구조3" /></p>
+
+<p>이러한 하드웨어 구조에서 최적의 컴퓨팅 연산을 위해선 ALU 로직과 메모리 접근,fetcing 그리고 재분배 등과 같은
+다양한 메모리 제어 방법이 필요하다 이에 따라 이러한 하드웨어와 최적으로 운용하기위한 SW가 필요하며 이러한
+기술중 엔디비아가 개발한 대표적인 SW가 CUDA이다.</p>
+
+<p><img src="https://i.imgur.com/aOKAnQn.png" alt="GPU 구조4" /></p>
+
+<p><img src="https://i.imgur.com/CHw8FjP.png" alt="GPU 구조5" /></p>
+
+<p>이러한 GPU 구조에서 CUDA 프로그래밍이 하는 역할은 다음 그림들과 같이 순차적으로 발생한다.</p>
+
+<p><img src="http://cfile26.uf.tistory.com/image/221F474C58114C801BED34" alt="CUDA 1" />
+<img src="http://cfile27.uf.tistory.com/image/211A474C58114C811E95DB" alt="CUDA 2" />
+<img src="http://cfile9.uf.tistory.com/image/2223824C58114C82177403" alt="CUDA 3" /></p>
+
+<p>CUDNN은 딥러닝을 위해서 반복적으로 사용되는 컨볼루션, 폴링, signoid, Batchnorm(?)과 같은 기본적인 기능들을 정해진 알고리즘에 따라서 cuda 프로그래밍으로 사전에 구현해 놓은 라이브러리를 가리킨다. 예로 컨볼루션의 경우 gemm, fast gemm, FFT, Winograd 알고리즘이 대표적인 것이다.
+아래의 그림은 gemm을 CUDA 프로그래밍으로 구현하는 기본 메카니즘을 보여준다.
+<img src="https://www.groundai.com/media/arxiv_projects/11346/genr.svg" alt="CuDNN" /></p>
+
+</div>
+
+<div class="related">
+  <h2>Related Posts</h2>
+  <ul class="related-posts">
+    
+      <li>
+        <h3>
+          <a href="/2019/03/26/Resume.html">
+            Portfolio
+            <small>26 Mar 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2019/03/26/Computer-vision-face-recognition.html">
+            얼굴인식과 영상인식 처리
+            <small>26 Mar 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+      <li>
+        <h3>
+          <a href="/2019/03/17/PR-Byesian-NN.html">
+            Pr Byesian Nn
+            <small>17 Mar 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</div>
+
+    </div>
+
+  </body>
+</html>
