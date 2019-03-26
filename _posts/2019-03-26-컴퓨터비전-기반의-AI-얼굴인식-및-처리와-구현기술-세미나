@@ -123,6 +123,62 @@ CRF 사용 요령
 -> 전처리로 deblur(어떤 deblur 방식이 좋은가?), color normalization
 -> 후처리로는 CRF가 너무 거대하기 때문에 부분적으로 사용
 
+4강 - AI 영상인식 얼굴인식 처리 최적 알고리즘
+영상인식 동향
+- jetson TK1 -> 케플러 시리즈 등등
+
+임베디드로 카페2, tensorRT, tensorflowLITE - android와 iOS전용
+
+
+모델 압축 예시 4가지
+-1. parameter pruning and weight sharing
+ 2. low-rank factorization
+ 3. Transferred/compact convolutional filters
+ 4. Teachers-student model
+
+
+
+1) pruning
+- uncritical인것들을 제거하는 것
+- 처음에 전부다 트레이닝하고. 이후 가지치기를 해서 임계값보다 큰 것들을 살려두는 식으로 반복 수행
+- quantization도 이 이안에 포함됨
+  -> weight sharing으로 비슷한 애들끼리 클러스터링 후 센트로이드를 구하여, 모든 웨이트들이 이 값만을 사용하는 것
+- 최근 방법은 CVPR2018에서 발표된 Pruning-Quantization 기술로 압축하는 것
+
+2) Low-rank factorization
+- convolution을 전체를 하는 것이 아닌 depthwise convolution 및 point-wise convolution을 적용하는 것
+- 
+
+
+
+5강 - 얼굴인식 프레임워크
+
+- 기존 기술은 : 정면 영상을 촬영하는 스태틱 방식이었으면
+최근 동향은 비디오에서 얼굴인식을 하는 기술이 연구되고 있다.
+
+
+- sensetime, megvil;l,
+
+
+1) 얼굴인식 파이프라인
+: 입력 영상이 들어오면 얼굴을 추출
+-> nowledge로부터 얼굴 수평방향 조절 등) ->. 특징 추출 -> 매칭 분류
+
+- dataset : FDDB, wide face
+
+얼굴인식 기술
+1) Verification,
+   gallery based,
+   classification
+
+
+Mega face dataset
+FaceNet - 
+
+
+
+6강 - continual learning
+=> Dynamic하게 계속 하는 방법 -> 일부 뉴론만 학습 또는 네트워크 확장 개념
 
 
 
