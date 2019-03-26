@@ -180,6 +180,40 @@ FaceNet -
 6강 - continual learning
 => Dynamic하게 계속 하는 방법 -> 일부 뉴론만 학습 또는 네트워크 확장 개념
 
+=> Unsupervised Domain Adaptation
+-> 
+
+7강 - 모바일 카메라 기반 기술 설명
+
+=> outfcusing -> 다양한 화질 개선
+ -> 거리갑추정에서 먼거리 값을 blur
+
+slam -> 결국 다차원 공간 정보 필요
+-> 결국 depth 추출이 중요하다.
 
 
+필요 코어 기술
+1) 이미지 프로세싱 및 전처리
+2) 이미지 베이스 퍼셉션
+3) 나의 위치 및 포즈 예측
 
+
+- 주요 설명내용
+=> Depth map estimation
+   -> 현재 제일 좋은 기술은 stereo Matching Network
+     -> Pyramid Stereo Matching Network : feature를 모래시계로 쌓는것
+
+
+stereo camera는 구현문제가 있어 요새 유행하는 방식은 depth-estimation을 single camera로 하는게 유행
+
+unsupervised monocular depth estimation with left-right coninsistency - cvpr 2017
+
+
+다초점 카메라 - 카메라 자체로 독특한 multi-array camera를 쓰면 all-focusing 카메라를 얻을 수 있음
+-> 거리정보도 다양한 값을 얻을 수 있다.
+
+즉 모바일의 카메라 기종에 따라 다양한 기술 개발 가능
+
+예로 베이어 패턴(RGBG)의 카메라가 아닌 RGB(IR) 카메라를 쓰면 IR부분이 apperture(Exposure)부분이 짧기 때문에 더 많은 영역을 볼수가 있다.
+
+dual pixel phone의 경우 두개의 픽셀 정보를 얻을 수 있기 때문에 하나의 카메라로 거리정보를 얻을 수 있다.
