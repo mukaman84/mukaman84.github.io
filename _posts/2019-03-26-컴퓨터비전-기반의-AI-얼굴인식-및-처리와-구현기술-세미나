@@ -116,7 +116,7 @@ binarization으로 convolution 필터를 구현하였고, 이를 저가형 fpga�
 차세대 아키텍처 이용
 
 
-
+non-local block -> RNN 사용하지도 않고 시퀀스 데이터에서 성능을 향상 시킬 수 있음
 
 
 
