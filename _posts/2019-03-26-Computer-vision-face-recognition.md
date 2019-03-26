@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "얼굴인식과 영상인식 처리"
+---
+ Face recognition and image processing
+---
+
 1강- 얼굴인식, 영상인식 및 처리 산업현황과 국내외 주요 업체 사업 동향
 - 라온피플 이석중 대표
 
