@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3986b687-6fcd-4211-8ef4-a6f24e19c46b" name="Default" comment="add a new blog post about 2019 seminar - face recognition and computer vision">
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4635766442e2624fae2ffaf232c6cc05fb422786/_base.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4635766442e2624fae2ffaf232c6cc05fb422786/_layout.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4635766442e2624fae2ffaf232c6cc05fb422786/_syntax-highlighting.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/add_a_new_blog_post_about_2019_seminar_-_face_recognition_and_computer_vision.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/add_a_new_blog_post_about_2019_seminar_-_face_recognition_and_computer_vision.patch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-27-second+day+for+CV+seminar+and+face+recognition" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-27-second+day+for+CV+seminar+and+face+recognition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-03-27-second+day+for+CV+seminar+and+face+recognition.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-27-second-day-for-CV-seminar-and-face-recognition.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2018/02/18/gpu-cuda_(2)_Deep_Dive_into_GPU_Books.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/02/18/gpu-cuda_(2)_Deep_Dive_into_GPU_Books.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2018/05/13/gpu-cuda.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/13/gpu-cuda.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2018/05/14/cs231n-review.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/14/cs231n-review.html" afterDir="false" />
@@ -20,6 +13,7 @@
       <change beforePath="$PROJECT_DIR$/_site/2019/03/09/tf_record_api.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/09/tf_record_api.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/03/26/Computer-vision-face-recognition.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/26/Computer-vision-face-recognition.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/03/26/Resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/26/Resume.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/atom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/temp_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/temp_index.html" afterDir="false" />
@@ -63,20 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_site/2019/03/17/PR-Byesian-NN.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -237,7 +222,7 @@
       <workItem from="1553440640791" duration="2536000" />
       <workItem from="1553601617878" duration="3502000" />
       <workItem from="1553620637734" duration="662000" />
-      <workItem from="1553680576851" duration="379000" />
+      <workItem from="1553680576851" duration="675000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1526133775582</created>
@@ -470,11 +455,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553620693483</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add a new blog post about 2019 seminar - face recognition and computer vision">
+      <created>1553680963014</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1553680963014</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15834000" />
+    <option name="totallyTimeSpent" value="16130000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -877,17 +869,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_site/2019/03/17/PR-Byesian-NN.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>

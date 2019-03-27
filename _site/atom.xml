@@ -4,7 +4,7 @@
  <title>Dongyul Lee</title>
  <link href="http://localhost:4000/atom.xml" rel="self"/>
  <link href="http://localhost:4000/"/>
- <updated>2019-03-27T19:02:35+09:00</updated>
+ <updated>2019-03-27T19:08:02+09:00</updated>
  <id>http://localhost:4000</id>
  <author>
    <name></name>
@@ -13,10 +13,10 @@
 
  
  <entry>
-   <title>Second+day+for+cv+seminar+and+face+recognition</title>
-   <link href="http://localhost:4000/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html"/>
+   <title>Second Day For Cv Seminar And Face Recognition</title>
+   <link href="http://localhost:4000/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html"/>
    <updated>2019-03-27T00:00:00+09:00</updated>
-   <id>http://localhost:4000/2019/03/27/second+day+for+CV+seminar+and+face+recognition</id>
+   <id>http://localhost:4000/2019/03/27/second-day-for-CV-seminar-and-face-recognition</id>
    <content type="html">&lt;p&gt;1강 - 영상강시 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재 기술과 서비스 적용방안&lt;/p&gt;
 
 &lt;ul&gt;
