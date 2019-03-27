@@ -2,21 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3986b687-6fcd-4211-8ef4-a6f24e19c46b" name="Default" comment="add a new blog post about 2019 seminar - face recognition and computer vision">
-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-27-second+day+for+CV+seminar+and+face+recognition.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-27-second-day-for-CV-seminar-and-face-recognition.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/02/18/gpu-cuda_(2)_Deep_Dive_into_GPU_Books.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/02/18/gpu-cuda_(2)_Deep_Dive_into_GPU_Books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/05/13/gpu-cuda.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/13/gpu-cuda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/05/14/cs231n-review.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/14/cs231n-review.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/05/15/PR-RI-01.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/15/PR-RI-01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/05/15/shell-practice.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/15/shell-practice.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/12/16/NLP_DL_lab.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/12/16/NLP_DL_lab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/03/09/Bayesian-Neural-Net.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/09/Bayesian-Neural-Net.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/03/09/tf_record_api.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/09/tf_record_api.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/03/26/Computer-vision-face-recognition.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/26/Computer-vision-face-recognition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/03/26/Resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/26/Resume.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/26-1.딥러닝 영상 인식을 이용한&#10;산업용 비전 검사.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/26-2.AI 영상 인식 및 처리 플랫폼 개발과&#10;응용_상용화 동향.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/26-3.AI 기반 컴퓨터 비전 시스템의 영상처리&#10;방식 별 응용 연구 ‧ 기술 개발과 상용화 동향.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/26-4.최적 알고리즘과 객체 검출기법_상용화 동향.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/26-4.최적 알고리즘과 객체 검출기법_상용화 동향_2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/26-5.컴퓨터비전 기반 AI 얼굴인식 및 처리&#10;기술개발과 적용기술.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/26-6.AI 기반 영상인식 기술과 로봇 응용.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/26-7.지능형 카메라 개발을 위한 인공지능 기반 영상 처리_인식 기술 동향.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/agenda.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/설명서_26일.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/참석업체_리스트.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/atom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/temp_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/temp_index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,11 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/2019/03/17/PR-Byesian-NN.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/설명서_26일.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -156,28 +164,7 @@
             <path>
               <item name="mukaman84.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="mukaman84.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mukaman84.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mukaman84.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mukaman84.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mukaman84.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mukaman84.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mukaman84.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_site" type="462c0819:PsiDirectoryNode" />
-              <item name="2019" type="462c0819:PsiDirectoryNode" />
-              <item name="03" type="462c0819:PsiDirectoryNode" />
-              <item name="27" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,6 +179,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -222,7 +210,7 @@
       <workItem from="1553440640791" duration="2536000" />
       <workItem from="1553601617878" duration="3502000" />
       <workItem from="1553620637734" duration="662000" />
-      <workItem from="1553680576851" duration="675000" />
+      <workItem from="1553680576851" duration="2453000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1526133775582</created>
@@ -462,11 +450,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553680963014</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add a new blog post about 2019 seminar - face recognition and computer vision">
+      <created>1553681286585</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1553681286585</updated>
+    </task>
+    <task id="LOCAL-00036" summary="add a new blog post about 2019 seminar - face recognition and computer vision">
+      <created>1553681300403</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1553681300403</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16130000" />
+    <option name="totallyTimeSpent" value="17908000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -878,8 +880,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/2019/03/17/PR-Byesian-NN.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/설명서_26일.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,576 @@
+Index: _site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html
+===================================================================
+--- _site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
+@@ -1,194 +0,0 @@
+-<p>1강 - 영상강시 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재 기술과 서비스 적용방안</p>
+-
+-<ul>
+-  <li>이상징후 검출 기술
+- . 기계학습/딥러닝 기반 이상징후 검출 기술 개발
+- . 타입랩스를 이용한</li>
+-</ul>
+-
+-<p>A. 3D(시/공간) 특징을 이용한 기계학습/딥러닝 기반 이상징후 분류 모델 향상</p>
+-
+-<ul>
+-  <li>동일 객체 재인식 기술</li>
+-  <li>엣지 카메라의 중첩된 경계영역에서 검출된 관심 동일 객체 재인식 알고리즘 개발</li>
+-  <li>CNN기반 동일 객체 재인식 알고리즘</li>
+-  <li>기존의 GoogleNet~</li>
+-</ul>
+-
+-<p>등으로 동일객체인지 아닌지 판단</p>
+-
+-<p>-관심 객체 및 이상 징후 검색을 위한 객체 메타데이터 생성 및 저장 기술
+-A. 메타데이터 생성 기술</p>
+-<ol>
+-  <li>PLSA model 기반의 color name 학습을 통한 객체 색상 메타데이터 생성 기술</li>
+-  <li>two-stream 시반의 딥러닝 네트워크를 이용한 이상징후 메타데이터 생성
+-B. 저장된 메타데이터를 이용한 검색 기술</li>
+-  <li>SQL 이용</li>
+-</ol>
+-
+-<p>-영상 분석 시스템-엣지카메라 협업을 위한 연동 인터페이스</p>
+-
+-<p>-영상 분석 시스템-엣지 카메라 협업 의사결정 알고리즘 개발 (완료)
+-.영상 분석 시스템-엣지 카메라간 협업을 위한 학습형 의사결정 알고리즘 개발</p>
+-
+-<p>2강 - 드론분야ㅐ에서의 AI 영상인식 및 처리 탑재기술과 서비스 적용방안</p>
+-<ul>
+-  <li>2001년부터 20년간 비전관련 드론기술을 연구함</li>
+-</ul>
+-
+-<p>(1) 연구실 소개 : 항공우주시스템 공학부
+-(2) 드론내의 자료는 다 보안으로 공유가 안된다 그래서 모든걸 자체 개발하는중이다
+-(3) 영상인식은 결국 : 타겟 인식과 트래킹
+-드론은 전파 손실이 심해서 영상인식으로 트래킹하는 것이 중요</p>
+-
+-<p>3강 - 자율주행차 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용방안</p>
+-
+-<ul>
+-  <li>볼게 없음…</li>
+-</ul>
+-
+-<p>4강 - 스마트팩토리 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용방안</p>
+-
+-<ul>
+-  <li>
+-    <dl>
+-      <dt>스마트 팩토리 에코시스템</dt>
+-      <dd>양품의 품질 생산 -
+-1단계 : 자동화 통한 효율화
+-2단계 : 검사</dd>
+-    </dl>
+-  </li>
+-</ul>
+-
+-<p>비전검사 자동화</p>
+-
+-<p>-&gt; 보급률 1위는 자동차 -&gt;반도체
+-꼴찌는 가죽</p>
+-
+-<p>기존 룰베이스 방식의 문제 : 빈번한 Rule 설정 필요</p>
+-
+-<p>feature 정의, shape 정의 등등이 너무 어렵다.</p>
+-
+-<p>딥러닝은 러닝베이스</p>
+-
+-<p>Image Comparision</p>
+-
+-<p>Diff-Net을 적용하여 불량 이미지와 정상이미지간을 Pair로 학습시켜서 다른점을 찾는 방식을 사용한다.</p>
+-
+-<p>Domain adaptation을 적용</p>
+-<ul>
+-  <li>이 방법은 새로운 이미지가 오면, 즉 소수 이미지를 가지고 학습</li>
+-</ul>
+-
+-<p>GAN은 비정규성 이미지에서는 성능이 좋지 않다.</p>
+-
+-<p>post training??? 추후 볼 것</p>
+-
+-<p>5강 - AR/VR 분야에서 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용방안</p>
+-
+-<ul>
+-  <li>AI engine : 카메라/센서 입력으로부터</li>
+-  <li>AR engine : 실제에 가상물체 합성</li>
+-</ul>
+-
+-<p>AR을 넣을때 실제 환경에 맞게 customize</p>
+-
+-<p>얼굴인식에 손동작 인식등을 결합하여 결제서비스까지 가능하도록 설계</p>
+-
+-<p>얼굴인식을 2D가 아닌 3D 정보를 얻도록 노력 -&gt; 현실감있는 AR을 위해서</p>
+-
+-<p>Face detection -&gt; Face Landmark estimation(regression) -&gt; Face alignment -&gt; emd</p>
+-
+-<p>Megaface DB
+-KISA (한국인터넷진흥원) 인증완료
+-NIST (미국국립표준과학연구소) 평가 진행 중 (Pre 결과 진행중)</p>
+-
+-<p>land mark의 수를 찾는 문제 -&gt; 160개에서 22개로 확장중</p>
+-
+-<p>사용된 딥러닝 기술 : Fully convolutional Networks</p>
+-
+-<p>피씨에서는 3ms
+-엑시노스 8895 갤럭시 S8 7ms</p>
+-
+-<p>3D header pose</p>
+-
+-<p>요새는 large margin loss를 많이 사용
+-angular margin loss도 사용</p>
+-
+-<p>FRVT : 얼굴인식 대회
+-cluster purity : 전체에서 구분된 클러스터가 얼마나 순수한지를 보여주는 지표</p>
+-
+-<p>표정인식 : 긍정, 중립, 부정 -&gt; 색별로 표정인식하여 제공</p>
+-
+-<p>Hand analysis
+-손 검출 : 영상 내에서 손의 bounding box를 찾기
+-2D 손 골격: (Skeleton) 검출 :</p>
+-
+-<p>최종단계는 Hand analysis AR과 인터랙티브하게 적용</p>
+-
+-<p>6강 - 패션/커머스 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용방안</p>
+-
+-<ul>
+-  <li>AI로 옷을 개발
+-2019 CES에서 이커머스 기술 혁신 로드맵에서 AI를 중심으로 상품 제조부터 개인화된 비서 수준의 서비스까지 모든 영역에서~~~</li>
+-</ul>
+-
+-<p>전자상거래 관련 인공지능 기술을 도입한 주요 회사들과 분야들을 구분한다면 기초기술을 중심으로 연구하는 그룹과 응용서비스를 개발하는 그룹으로 나뉨</p>
+-
+-<p>데이터 분석관점에서는 3개로 구분되어 진행됨</p>
+-
+-<p>1 supervised
+-2 unsupervised
+-3 reinforcement learning</p>
+-
+-<p>옷도 레이블할때 여러 단계로 나누어서 레이블한다.</p>
+-
+-<p>1) 긴팔, 반팔, 몸통 등
+-즉, 여러 속성으로 나누어서 적용한다.</p>
+-
+-<p>즉, sleeve, color, collar, pattern, material등으로 분류</p>
+-
+-<p>상품화 설계는 결국</p>
+-
+-<p>1) 데이터 취득 - 웹크롤링, 전처리(blurring 등), 
+-2) 데이터 레이블링 -  상세 레이블 스펙 날씨 등
+-3) 데이터 deployment - hardware optimization, 병렬 처리 등</p>
+-
+-<p>안드로이드 오토 연결시 -&gt; slam으로 차량 물체의 위치를 추적후 결제 - 인증 - 인식???</p>
+-
+-<p>이커머스의 예측 모델의 유효성</p>
+-<ul>
+-  <li>
+-    <p>특정 상품에 대하여 지금부터 18개월 이후 시점까지의 수요를 예측</p>
+-  </li>
+-  <li>
+-    <p>기술적 과제들(Challenges)
+-=&gt; Sparsity, Size, Seasonal, Distribution, Scale, Censored 등</p>
+-  </li>
+-</ul>
+-
+-<p>7강 - 의료 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용 방안</p>
+-<ul>
+-  <li>
+-    <p>데이터 드리븐 방식의 설계
+- =&gt; 데이터 사이언티스트의 역할이 강화됨</p>
+-  </li>
+-  <li>
+-    <dl>
+-      <dt>problem definition</dt>
+-      <dd>Discovering Unmet Needs</dd>
+-    </dl>
+-    <ul>
+-      <li>prevention -&gt; screening -&gt; Diagnosis -&gt; treatment -&gt; monitoring</li>
+-    </ul>
+-  </li>
+-</ul>
+-
+-<p>Fast MRI -&gt; MRI는 자기공명 데이터로부터 reconstruction되는 데이터를 만드는 것인데, 이는 비싸고 촬영 시간이 오래걸리기 떄문에
+-띄엄띄엄 자기공명데이터를 촬영하고 이로부터 gan을 사용하여 MRI 데이터를 생성하는 방식이다.
+--&gt; 페이스북이랑 미국 대학이랑 연구 진행함</p>
+-
+-<ul>
+-  <li>Data annotation관련 많은 특허 존재</li>
+-</ul>
+-
+Index: _site/2019/03/26/Resume.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2019/03/26/Resume.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2019/03/26/Resume.html	(date 1553681251000)
+@@ -144,8 +144,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: _site/atom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/atom.xml	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/atom.xml	(date 1553681251000)
+@@ -4,7 +4,7 @@
+  <title>Dongyul Lee</title>
+  <link href="http://localhost:4000/atom.xml" rel="self"/>
+  <link href="http://localhost:4000/"/>
+- <updated>2019-03-27T19:02:35+09:00</updated>
++ <updated>2019-03-27T19:07:31+09:00</updated>
+  <id>http://localhost:4000</id>
+  <author>
+    <name></name>
+@@ -13,10 +13,10 @@
+ 
+  
+  <entry>
+-   <title>Second+day+for+cv+seminar+and+face+recognition</title>
+-   <link href="http://localhost:4000/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html"/>
++   <title>Second Day For Cv Seminar And Face Recognition</title>
++   <link href="http://localhost:4000/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html"/>
+    <updated>2019-03-27T00:00:00+09:00</updated>
+-   <id>http://localhost:4000/2019/03/27/second+day+for+CV+seminar+and+face+recognition</id>
++   <id>http://localhost:4000/2019/03/27/second-day-for-CV-seminar-and-face-recognition</id>
+    <content type="html">&lt;p&gt;1강 - 영상강시 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재 기술과 서비스 적용방안&lt;/p&gt;
+ 
+ &lt;ul&gt;
+Index: _site/2019/03/26/Computer-vision-face-recognition.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2019/03/26/Computer-vision-face-recognition.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2019/03/26/Computer-vision-face-recognition.html	(date 1553681251000)
+@@ -356,8 +356,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: _site/2019/03/09/Bayesian-Neural-Net.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2019/03/09/Bayesian-Neural-Net.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2019/03/09/Bayesian-Neural-Net.html	(date 1553681251000)
+@@ -188,8 +188,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ .idea/workspace.xml	(date 1553681251000)
+@@ -2,14 +2,7 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="3986b687-6fcd-4211-8ef4-a6f24e19c46b" name="Default" comment="add a new blog post about 2019 seminar - face recognition and computer vision">
+-      <change afterPath="$PROJECT_DIR$/.sass-cache/4635766442e2624fae2ffaf232c6cc05fb422786/_base.scssc" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.sass-cache/4635766442e2624fae2ffaf232c6cc05fb422786/_layout.scssc" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.sass-cache/4635766442e2624fae2ffaf232c6cc05fb422786/_syntax-highlighting.scssc" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/_site/add_a_new_blog_post_about_2019_seminar_-_face_recognition_and_computer_vision.patch" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/add_a_new_blog_post_about_2019_seminar_-_face_recognition_and_computer_vision.patch" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/_posts/2019-03-27-second+day+for+CV+seminar+and+face+recognition" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-27-second+day+for+CV+seminar+and+face+recognition.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/_posts/2019-03-27-second+day+for+CV+seminar+and+face+recognition.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-03-27-second-day-for-CV-seminar-and-face-recognition.md" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/_site/2018/02/18/gpu-cuda_(2)_Deep_Dive_into_GPU_Books.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/02/18/gpu-cuda_(2)_Deep_Dive_into_GPU_Books.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/_site/2018/05/13/gpu-cuda.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/13/gpu-cuda.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/_site/2018/05/14/cs231n-review.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/14/cs231n-review.html" afterDir="false" />
+@@ -20,6 +13,7 @@
+       <change beforePath="$PROJECT_DIR$/_site/2019/03/09/tf_record_api.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/09/tf_record_api.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/_site/2019/03/26/Computer-vision-face-recognition.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/26/Computer-vision-face-recognition.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/_site/2019/03/26/Resume.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/03/26/Resume.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/_site/atom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/atom.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/_site/temp_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/temp_index.html" afterDir="false" />
+@@ -63,7 +57,7 @@
+           </provider>
+         </entry>
+       </file>
+-      <file pinned="false" current-in-tab="false">
++      <file pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/_site/2019/03/17/PR-Byesian-NN.html">
+           <provider selected="true" editor-type-id="text-editor">
+             <state relative-caret-position="210">
+@@ -72,15 +66,6 @@
+           </provider>
+         </entry>
+       </file>
+-      <file pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="345">
+-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/_site/2019/03/26/Computer-vision-face-recognition.html">
+           <provider selected="true" editor-type-id="text-editor" />
+@@ -237,7 +222,7 @@
+       <workItem from="1553440640791" duration="2536000" />
+       <workItem from="1553601617878" duration="3502000" />
+       <workItem from="1553620637734" duration="662000" />
+-      <workItem from="1553680576851" duration="379000" />
++      <workItem from="1553680576851" duration="675000" />
+     </task>
+     <task id="LOCAL-00001" summary="commit">
+       <created>1526133775582</created>
+@@ -470,11 +455,18 @@
+       <option name="project" value="LOCAL" />
+       <updated>1553620693483</updated>
+     </task>
+-    <option name="localTasksCounter" value="34" />
++    <task id="LOCAL-00034" summary="add a new blog post about 2019 seminar - face recognition and computer vision">
++      <created>1553680963014</created>
++      <option name="number" value="00034" />
++      <option name="presentableId" value="LOCAL-00034" />
++      <option name="project" value="LOCAL" />
++      <updated>1553680963014</updated>
++    </task>
++    <option name="localTasksCounter" value="35" />
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="15834000" />
++    <option name="totallyTimeSpent" value="16130000" />
+   </component>
+   <component name="TodoView">
+     <todo-panel id="selected-file">
+@@ -877,17 +869,17 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/_site/2019/03/17/PR-Byesian-NN.html">
++    <entry file="file://$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="210">
+-          <caret line="14" selection-start-line="14" selection-end-line="14" />
++        <state relative-caret-position="480">
++          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/_site/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
++    <entry file="file://$PROJECT_DIR$/_site/2019/03/17/PR-Byesian-NN.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="345">
+-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
++        <state relative-caret-position="210">
++          <caret line="14" selection-start-line="14" selection-end-line="14" />
+         </state>
+       </provider>
+     </entry>
+Index: _site/2019/03/09/tf_record_api.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2019/03/09/tf_record_api.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2019/03/09/tf_record_api.html	(date 1553681251000)
+@@ -133,8 +133,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: _site/2018/12/16/NLP_DL_lab.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2018/12/16/NLP_DL_lab.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2018/12/16/NLP_DL_lab.html	(date 1553681251000)
+@@ -147,8 +147,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: _site/feed.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/feed.xml	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/feed.xml	(date 1553681251000)
+@@ -5,12 +5,12 @@
+     <description>Welcome to Dongyul DNN space</description>
+     <link>http://localhost:4000/</link>
+     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+-    <pubDate>Wed, 27 Mar 2019 19:02:35 +0900</pubDate>
+-    <lastBuildDate>Wed, 27 Mar 2019 19:02:35 +0900</lastBuildDate>
++    <pubDate>Wed, 27 Mar 2019 19:07:31 +0900</pubDate>
++    <lastBuildDate>Wed, 27 Mar 2019 19:07:31 +0900</lastBuildDate>
+     <generator>Jekyll v3.8.5</generator>
+     
+       <item>
+-        <title>Second+day+for+cv+seminar+and+face+recognition</title>
++        <title>Second Day For Cv Seminar And Face Recognition</title>
+         <description>&lt;p&gt;1강 - 영상강시 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재 기술과 서비스 적용방안&lt;/p&gt;
+ 
+ &lt;ul&gt;
+@@ -207,8 +207,8 @@
+ 
+ </description>
+         <pubDate>Wed, 27 Mar 2019 00:00:00 +0900</pubDate>
+-        <link>http://localhost:4000/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html</link>
+-        <guid isPermaLink="true">http://localhost:4000/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html</guid>
++        <link>http://localhost:4000/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html</link>
++        <guid isPermaLink="true">http://localhost:4000/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html</guid>
+         
+         
+       </item>
+Index: _site/2018/05/15/PR-RI-01.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2018/05/15/PR-RI-01.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2018/05/15/PR-RI-01.html	(date 1553681251000)
+@@ -107,8 +107,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: _site/2018/05/14/cs231n-review.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2018/05/14/cs231n-review.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2018/05/14/cs231n-review.html	(date 1553681251000)
+@@ -109,8 +109,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: _site/2018/05/15/shell-practice.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2018/05/15/shell-practice.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2018/05/15/shell-practice.html	(date 1553681251000)
+@@ -127,8 +127,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: _site/2018/05/13/gpu-cuda.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2018/05/13/gpu-cuda.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2018/05/13/gpu-cuda.html	(date 1553681251000)
+@@ -145,8 +145,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: _site/temp_index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/temp_index.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/temp_index.html	(date 1553681251000)
+@@ -103,8 +103,8 @@
+   
+     <div class ="post-preview">
+       <span class="post-title">
+-        <a class="post-link" href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-          Second+day+for+cv+seminar+and+face+recognition
++        <a class="post-link" href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++          Second Day For Cv Seminar And Face Recognition
+         </a>
+       </span>
+ 
+Index: _site/2018/02/18/gpu-cuda_(2)_Deep_Dive_into_GPU_Books.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/2018/02/18/gpu-cuda_(2)_Deep_Dive_into_GPU_Books.html	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _site/2018/02/18/gpu-cuda_(2)_Deep_Dive_into_GPU_Books.html	(date 1553681251000)
+@@ -133,8 +133,8 @@
+     
+       <li>
+         <h3>
+-          <a href="/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html">
+-            Second+day+for+cv+seminar+and+face+recognition
++          <a href="/2019/03/27/second-day-for-CV-seminar-and-face-recognition.html">
++            Second Day For Cv Seminar And Face Recognition
+             <small>27 Mar 2019</small>
+           </a>
+         </h3>
+Index: _posts/2019-03-27-second+day+for+CV+seminar+and+face+recognition.md
+===================================================================
+--- _posts/2019-03-27-second+day+for+CV+seminar+and+face+recognition.md	(revision 0d8a768e6214f95caff6bcfd2870f42fc73ccc50)
++++ _posts/2019-03-27-second-day-for-CV-seminar-and-face-recognition.md	(date 1553680672000)
+@@ -1,0 +1,0 @@
