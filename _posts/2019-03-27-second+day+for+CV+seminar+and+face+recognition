@@ -174,5 +174,15 @@ Hand analysis
   - prevention -> screening -> Diagnosis -> treatment -> monitoring
 
 
+Fast MRI -> MRI는 자기공명 데이터로부터 reconstruction되는 데이터를 만드는 것인데, 이는 비싸고 촬영 시간이 오래걸리기 떄문에
+띄엄띄엄 자기공명데이터를 촬영하고 이로부터 gan을 사용하여 MRI 데이터를 생성하는 방식이다.
+-> 페이스북이랑 미국 대학이랑 연구 진행함
+
+- Data annotation관련 많은 특허 존재
+
+
+
+
+
 
 
