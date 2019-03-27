@@ -3,24 +3,260 @@
   <channel>
     <title>Dongyul Lee</title>
     <description>Welcome to Dongyul DNN space</description>
-    <link>https://mukaman84.github.io/</link>
-    <atom:link href="https://mukaman84.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 27 Mar 2019 00:50:33 +0900</pubDate>
-    <lastBuildDate>Wed, 27 Mar 2019 00:50:33 +0900</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 27 Mar 2019 19:02:35 +0900</pubDate>
+    <lastBuildDate>Wed, 27 Mar 2019 19:02:35 +0900</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Second+day+for+cv+seminar+and+face+recognition</title>
+        <description>&lt;p&gt;1강 - 영상강시 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재 기술과 서비스 적용방안&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이상징후 검출 기술
+ . 기계학습/딥러닝 기반 이상징후 검출 기술 개발
+ . 타입랩스를 이용한&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A. 3D(시/공간) 특징을 이용한 기계학습/딥러닝 기반 이상징후 분류 모델 향상&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;동일 객체 재인식 기술&lt;/li&gt;
+  &lt;li&gt;엣지 카메라의 중첩된 경계영역에서 검출된 관심 동일 객체 재인식 알고리즘 개발&lt;/li&gt;
+  &lt;li&gt;CNN기반 동일 객체 재인식 알고리즘&lt;/li&gt;
+  &lt;li&gt;기존의 GoogleNet~&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;등으로 동일객체인지 아닌지 판단&lt;/p&gt;
+
+&lt;p&gt;-관심 객체 및 이상 징후 검색을 위한 객체 메타데이터 생성 및 저장 기술
+A. 메타데이터 생성 기술&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;PLSA model 기반의 color name 학습을 통한 객체 색상 메타데이터 생성 기술&lt;/li&gt;
+  &lt;li&gt;two-stream 시반의 딥러닝 네트워크를 이용한 이상징후 메타데이터 생성
+B. 저장된 메타데이터를 이용한 검색 기술&lt;/li&gt;
+  &lt;li&gt;SQL 이용&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;-영상 분석 시스템-엣지카메라 협업을 위한 연동 인터페이스&lt;/p&gt;
+
+&lt;p&gt;-영상 분석 시스템-엣지 카메라 협업 의사결정 알고리즘 개발 (완료)
+.영상 분석 시스템-엣지 카메라간 협업을 위한 학습형 의사결정 알고리즘 개발&lt;/p&gt;
+
+&lt;p&gt;2강 - 드론분야ㅐ에서의 AI 영상인식 및 처리 탑재기술과 서비스 적용방안&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;2001년부터 20년간 비전관련 드론기술을 연구함&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(1) 연구실 소개 : 항공우주시스템 공학부
+(2) 드론내의 자료는 다 보안으로 공유가 안된다 그래서 모든걸 자체 개발하는중이다
+(3) 영상인식은 결국 : 타겟 인식과 트래킹
+드론은 전파 손실이 심해서 영상인식으로 트래킹하는 것이 중요&lt;/p&gt;
+
+&lt;p&gt;3강 - 자율주행차 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용방안&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;볼게 없음…&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4강 - 스마트팩토리 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용방안&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;스마트 팩토리 에코시스템&lt;/dt&gt;
+      &lt;dd&gt;양품의 품질 생산 -
+1단계 : 자동화 통한 효율화
+2단계 : 검사&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;비전검사 자동화&lt;/p&gt;
+
+&lt;p&gt;-&amp;gt; 보급률 1위는 자동차 -&amp;gt;반도체
+꼴찌는 가죽&lt;/p&gt;
+
+&lt;p&gt;기존 룰베이스 방식의 문제 : 빈번한 Rule 설정 필요&lt;/p&gt;
+
+&lt;p&gt;feature 정의, shape 정의 등등이 너무 어렵다.&lt;/p&gt;
+
+&lt;p&gt;딥러닝은 러닝베이스&lt;/p&gt;
+
+&lt;p&gt;Image Comparision&lt;/p&gt;
+
+&lt;p&gt;Diff-Net을 적용하여 불량 이미지와 정상이미지간을 Pair로 학습시켜서 다른점을 찾는 방식을 사용한다.&lt;/p&gt;
+
+&lt;p&gt;Domain adaptation을 적용&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;이 방법은 새로운 이미지가 오면, 즉 소수 이미지를 가지고 학습&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;GAN은 비정규성 이미지에서는 성능이 좋지 않다.&lt;/p&gt;
+
+&lt;p&gt;post training??? 추후 볼 것&lt;/p&gt;
+
+&lt;p&gt;5강 - AR/VR 분야에서 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용방안&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI engine : 카메라/센서 입력으로부터&lt;/li&gt;
+  &lt;li&gt;AR engine : 실제에 가상물체 합성&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;AR을 넣을때 실제 환경에 맞게 customize&lt;/p&gt;
+
+&lt;p&gt;얼굴인식에 손동작 인식등을 결합하여 결제서비스까지 가능하도록 설계&lt;/p&gt;
+
+&lt;p&gt;얼굴인식을 2D가 아닌 3D 정보를 얻도록 노력 -&amp;gt; 현실감있는 AR을 위해서&lt;/p&gt;
+
+&lt;p&gt;Face detection -&amp;gt; Face Landmark estimation(regression) -&amp;gt; Face alignment -&amp;gt; emd&lt;/p&gt;
+
+&lt;p&gt;Megaface DB
+KISA (한국인터넷진흥원) 인증완료
+NIST (미국국립표준과학연구소) 평가 진행 중 (Pre 결과 진행중)&lt;/p&gt;
+
+&lt;p&gt;land mark의 수를 찾는 문제 -&amp;gt; 160개에서 22개로 확장중&lt;/p&gt;
+
+&lt;p&gt;사용된 딥러닝 기술 : Fully convolutional Networks&lt;/p&gt;
+
+&lt;p&gt;피씨에서는 3ms
+엑시노스 8895 갤럭시 S8 7ms&lt;/p&gt;
+
+&lt;p&gt;3D header pose&lt;/p&gt;
+
+&lt;p&gt;요새는 large margin loss를 많이 사용
+angular margin loss도 사용&lt;/p&gt;
+
+&lt;p&gt;FRVT : 얼굴인식 대회
+cluster purity : 전체에서 구분된 클러스터가 얼마나 순수한지를 보여주는 지표&lt;/p&gt;
+
+&lt;p&gt;표정인식 : 긍정, 중립, 부정 -&amp;gt; 색별로 표정인식하여 제공&lt;/p&gt;
+
+&lt;p&gt;Hand analysis
+손 검출 : 영상 내에서 손의 bounding box를 찾기
+2D 손 골격: (Skeleton) 검출 :&lt;/p&gt;
+
+&lt;p&gt;최종단계는 Hand analysis AR과 인터랙티브하게 적용&lt;/p&gt;
+
+&lt;p&gt;6강 - 패션/커머스 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용방안&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;AI로 옷을 개발
+2019 CES에서 이커머스 기술 혁신 로드맵에서 AI를 중심으로 상품 제조부터 개인화된 비서 수준의 서비스까지 모든 영역에서~~~&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;전자상거래 관련 인공지능 기술을 도입한 주요 회사들과 분야들을 구분한다면 기초기술을 중심으로 연구하는 그룹과 응용서비스를 개발하는 그룹으로 나뉨&lt;/p&gt;
+
+&lt;p&gt;데이터 분석관점에서는 3개로 구분되어 진행됨&lt;/p&gt;
+
+&lt;p&gt;1 supervised
+2 unsupervised
+3 reinforcement learning&lt;/p&gt;
+
+&lt;p&gt;옷도 레이블할때 여러 단계로 나누어서 레이블한다.&lt;/p&gt;
+
+&lt;p&gt;1) 긴팔, 반팔, 몸통 등
+즉, 여러 속성으로 나누어서 적용한다.&lt;/p&gt;
+
+&lt;p&gt;즉, sleeve, color, collar, pattern, material등으로 분류&lt;/p&gt;
+
+&lt;p&gt;상품화 설계는 결국&lt;/p&gt;
+
+&lt;p&gt;1) 데이터 취득 - 웹크롤링, 전처리(blurring 등), 
+2) 데이터 레이블링 -  상세 레이블 스펙 날씨 등
+3) 데이터 deployment - hardware optimization, 병렬 처리 등&lt;/p&gt;
+
+&lt;p&gt;안드로이드 오토 연결시 -&amp;gt; slam으로 차량 물체의 위치를 추적후 결제 - 인증 - 인식???&lt;/p&gt;
+
+&lt;p&gt;이커머스의 예측 모델의 유효성&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;특정 상품에 대하여 지금부터 18개월 이후 시점까지의 수요를 예측&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;기술적 과제들(Challenges)
+=&amp;gt; Sparsity, Size, Seasonal, Distribution, Scale, Censored 등&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;7강 - 의료 분야에서의 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용 방안&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;데이터 드리븐 방식의 설계
+ =&amp;gt; 데이터 사이언티스트의 역할이 강화됨&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;problem definition&lt;/dt&gt;
+      &lt;dd&gt;Discovering Unmet Needs&lt;/dd&gt;
+    &lt;/dl&gt;
+    &lt;ul&gt;
+      &lt;li&gt;prevention -&amp;gt; screening -&amp;gt; Diagnosis -&amp;gt; treatment -&amp;gt; monitoring&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Fast MRI -&amp;gt; MRI는 자기공명 데이터로부터 reconstruction되는 데이터를 만드는 것인데, 이는 비싸고 촬영 시간이 오래걸리기 떄문에
+띄엄띄엄 자기공명데이터를 촬영하고 이로부터 gan을 사용하여 MRI 데이터를 생성하는 방식이다.
+-&amp;gt; 페이스북이랑 미국 대학이랑 연구 진행함&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Data annotation관련 많은 특허 존재&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Wed, 27 Mar 2019 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/27/second+day+for+CV+seminar+and+face+recognition.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Portfolio</title>
         <description>&lt;h2 id=&quot;face-recognition-and-image-processing&quot;&gt;Face recognition and image processing&lt;/h2&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Depth estimation with stereo camera&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;http://www.ipnomics.kr/news/articleView.html?idxno=71709
+최근 생체 정보를 이용한 자동차 잠금 해제 특허가 공개됐다. 지난 2월 7일(현지시간) 애플의 특허 ‘차량 인증 시스템과 방법’(System and method for vehicle authorization, 공개번호:US20190039570)을 미국 특허상표청(USPTO)이 공개했다. 특허는 운전자의 얼굴을 인식하는 생체 인증 기반 시스템에 대해 다루고 있다. 해당 특허는 지난해 8월 3일 출원됐다.&lt;/p&gt;
 
+&lt;p&gt;출처 : 아이피노믹스(http://www.ipnomics.kr)&lt;/p&gt;
+
+&lt;p&gt;##1. Depth estimation with stereo camera&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Depth estimation process
+ Stereo matching -&amp;gt; Depth-map estimation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(1) Stereo Matching&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;L-R 이미지간의 disparity를 찾는 문제로 다음의 두가지의 문제에서부터 기인한다.
+ =&amp;gt; ① Correspondence problem : 두 이미지간 disparity를 계산하는데 가장 적합&lt;br /&gt;
+ ② Reconstruction problem : 취득한 disparity는 불연속 값을 가지는데
+                            이로부터 continuous 이미지를 재생성하는 것을 가리킴&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(2) Segmentation&lt;/p&gt;
+
+&lt;p&gt;(3) Object detection&lt;/p&gt;
+
+&lt;p&gt;(4) Road marking detection&lt;/p&gt;
+
+&lt;p&gt;특허
+1)&lt;/p&gt;
+
+&lt;p&gt;2)&lt;/p&gt;
+
+&lt;p&gt;3)&lt;/p&gt;
+
+&lt;p&gt;4)&lt;/p&gt;
+
+&lt;p&gt;5)&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Mar 2019 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2019/03/26/Resume.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2019/03/26/Resume.html</guid>
+        <link>http://localhost:4000/2019/03/26/Resume.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/26/Resume.html</guid>
         
         
       </item>
@@ -279,8 +515,8 @@ FaceNet -&lt;/p&gt;
 &lt;p&gt;dual pixel phone의 경우 두개의 픽셀 정보를 얻을 수 있기 때문에 하나의 카메라로 거리정보를 얻을 수 있다.&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Mar 2019 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2019/03/26/Computer-vision-face-recognition.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2019/03/26/Computer-vision-face-recognition.html</guid>
+        <link>http://localhost:4000/2019/03/26/Computer-vision-face-recognition.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/26/Computer-vision-face-recognition.html</guid>
         
         
       </item>
@@ -326,8 +562,8 @@ Variational inference is an approach to estimate a density function by choosing 
 
 </description>
         <pubDate>Sun, 17 Mar 2019 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2019/03/17/PR-Byesian-NN.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2019/03/17/PR-Byesian-NN.html</guid>
+        <link>http://localhost:4000/2019/03/17/PR-Byesian-NN.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/17/PR-Byesian-NN.html</guid>
         
         
       </item>
@@ -363,8 +599,8 @@ Variational inference is an approach to estimate a density function by choosing 
 &lt;img src=&quot;https://www.groundai.com/media/arxiv_projects/11346/genr.svg&quot; alt=&quot;CuDNN&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2019/03/09/tf_record_api.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2019/03/09/tf_record_api.html</guid>
+        <link>http://localhost:4000/2019/03/09/tf_record_api.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/09/tf_record_api.html</guid>
         
         
       </item>
@@ -455,8 +691,8 @@ Baysian Nerural Network: Point-estimate와는 다르게 아래의 그림에서 �
 
 </description>
         <pubDate>Sat, 09 Mar 2019 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2019/03/09/Bayesian-Neural-Net.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2019/03/09/Bayesian-Neural-Net.html</guid>
+        <link>http://localhost:4000/2019/03/09/Bayesian-Neural-Net.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/03/09/Bayesian-Neural-Net.html</guid>
         
         
       </item>
@@ -466,8 +702,8 @@ Baysian Nerural Network: Point-estimate와는 다르게 아래의 그림에서 �
         <description>&lt;p&gt;Title :&lt;/p&gt;
 </description>
         <pubDate>Thu, 27 Dec 2018 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2018/12/27/PR-GCN-01.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2018/12/27/PR-GCN-01.html</guid>
+        <link>http://localhost:4000/2018/12/27/PR-GCN-01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/12/27/PR-GCN-01.html</guid>
         
         
       </item>
@@ -517,8 +753,8 @@ SPEC이기에 이러한 요소를 줄이고 ALU 연산에 최적화 시킨 것�
 &lt;img src=&quot;https://www.groundai.com/media/arxiv_projects/11346/genr.svg&quot; alt=&quot;CuDNN&quot; /&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 16 Dec 2018 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2018/12/16/NLP_DL_lab.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2018/12/16/NLP_DL_lab.html</guid>
+        <link>http://localhost:4000/2018/12/16/NLP_DL_lab.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/12/16/NLP_DL_lab.html</guid>
         
         
       </item>
@@ -548,8 +784,8 @@ SPEC이기에 이러한 요소를 줄이고 ALU 연산에 최적화 시킨 것�
 
 </description>
         <pubDate>Tue, 15 May 2018 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2018/05/15/shell-practice.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2018/05/15/shell-practice.html</guid>
+        <link>http://localhost:4000/2018/05/15/shell-practice.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/05/15/shell-practice.html</guid>
         
         
       </item>
@@ -559,21 +795,8 @@ SPEC이기에 이러한 요소를 줄이고 ALU 연산에 최적화 시킨 것�
         <description>
 </description>
         <pubDate>Tue, 15 May 2018 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2018/05/15/PR-RI-01.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2018/05/15/PR-RI-01.html</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>cs231n review (course 1-4)</title>
-        <description>&lt;p&gt;본 페이지에서는 스탠포드 대학의 ccs231n 코스를 지극히 개인관점에서 리뷰 및 핵심내용을 요약하고자 한다.&lt;/p&gt;
-
-&lt;p&gt;먼저 1-4 class의 내용을 다음과 같이 요약한다.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 14 May 2018 00:00:00 +0900</pubDate>
-        <link>https://mukaman84.github.io/2018/05/14/cs231n-review.html</link>
-        <guid isPermaLink="true">https://mukaman84.github.io/2018/05/14/cs231n-review.html</guid>
+        <link>http://localhost:4000/2018/05/15/PR-RI-01.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/05/15/PR-RI-01.html</guid>
         
         
       </item>

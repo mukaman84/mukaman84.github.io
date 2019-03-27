@@ -1,0 +1,137 @@
+Index: _site/atom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/atom.xml	(date 1553615484000)
++++ _site/atom.xml	(date 1553616010000)
+@@ -4,7 +4,7 @@
+  <title>Dongyul Lee</title>
+  <link href="https://mukaman84.github.io/atom.xml" rel="self"/>
+  <link href="https://mukaman84.github.io/"/>
+- <updated>2019-03-27T00:50:33+09:00</updated>
++ <updated>2019-03-27T01:00:10+09:00</updated>
+  <id>https://mukaman84.github.io</id>
+  <author>
+    <name></name>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1553615484000)
++++ .idea/workspace.xml	(date 1553620657000)
+@@ -1,10 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="3986b687-6fcd-4211-8ef4-a6f24e19c46b" name="Default" comment="add a new blog post about 2019 seminar - face recognition and computer vision">
+-      <change afterPath="$PROJECT_DIR$/_posts/2019-03-26-Resume.md" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="3986b687-6fcd-4211-8ef4-a6f24e19c46b" name="Default" comment="add a new blog post about 2019 seminar - face recognition and computer vision" />
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -93,7 +90,7 @@
+     </option>
+   </component>
+   <component name="ProjectFrameBounds" extendedState="4">
+-    <option name="x" value="65" />
++    <option name="x" value="75" />
+     <option name="y" value="24" />
+     <option name="width" value="928" />
+     <option name="height" value="1056" />
+@@ -115,7 +112,28 @@
+             <path>
+               <item name="mukaman84.github.io" type="b2602c69:ProjectViewProjectNode" />
+               <item name="mukaman84.github.io" type="462c0819:PsiDirectoryNode" />
+-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
++              <item name="_site" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="mukaman84.github.io" type="b2602c69:ProjectViewProjectNode" />
++              <item name="mukaman84.github.io" type="462c0819:PsiDirectoryNode" />
++              <item name="_site" type="462c0819:PsiDirectoryNode" />
++              <item name="2019" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="mukaman84.github.io" type="b2602c69:ProjectViewProjectNode" />
++              <item name="mukaman84.github.io" type="462c0819:PsiDirectoryNode" />
++              <item name="_site" type="462c0819:PsiDirectoryNode" />
++              <item name="2019" type="462c0819:PsiDirectoryNode" />
++              <item name="03" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="mukaman84.github.io" type="b2602c69:ProjectViewProjectNode" />
++              <item name="mukaman84.github.io" type="462c0819:PsiDirectoryNode" />
++              <item name="_site" type="462c0819:PsiDirectoryNode" />
++              <item name="2019" type="462c0819:PsiDirectoryNode" />
++              <item name="03" type="462c0819:PsiDirectoryNode" />
++              <item name="26" type="462c0819:PsiDirectoryNode" />
+             </path>
+           </expand>
+           <select />
+@@ -157,7 +175,7 @@
+       <updated>1526127398247</updated>
+       <workItem from="1553431869850" duration="8755000" />
+       <workItem from="1553440640791" duration="2536000" />
+-      <workItem from="1553601617878" duration="2926000" />
++      <workItem from="1553601617878" duration="3502000" />
+     </task>
+     <task id="LOCAL-00001" summary="commit">
+       <created>1526133775582</created>
+@@ -369,11 +387,25 @@
+       <option name="project" value="LOCAL" />
+       <updated>1553603147452</updated>
+     </task>
+-    <option name="localTasksCounter" value="31" />
++    <task id="LOCAL-00031" summary="add a new blog post about 2019 seminar - face recognition and computer vision">
++      <created>1553615456926</created>
++      <option name="number" value="00031" />
++      <option name="presentableId" value="LOCAL-00031" />
++      <option name="project" value="LOCAL" />
++      <updated>1553615456926</updated>
++    </task>
++    <task id="LOCAL-00032" summary="add a new blog post about 2019 seminar - face recognition and computer vision">
++      <created>1553615484521</created>
++      <option name="number" value="00032" />
++      <option name="presentableId" value="LOCAL-00032" />
++      <option name="project" value="LOCAL" />
++      <updated>1553615484521</updated>
++    </task>
++    <option name="localTasksCounter" value="33" />
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="14217000" />
++    <option name="totallyTimeSpent" value="14793000" />
+   </component>
+   <component name="TodoView">
+     <todo-panel id="selected-file">
+@@ -386,7 +418,6 @@
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="65" y="24" width="928" height="1056" extended-state="4" />
+-    <editor active="true" />
+     <layout>
+       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2993197" />
+       <window_info id="Structure" order="1" weight="0.25" />
+Index: _site/feed.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- _site/feed.xml	(date 1553615484000)
++++ _site/feed.xml	(date 1553616010000)
+@@ -5,8 +5,8 @@
+     <description>Welcome to Dongyul DNN space</description>
+     <link>https://mukaman84.github.io/</link>
+     <atom:link href="https://mukaman84.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+-    <pubDate>Wed, 27 Mar 2019 00:50:33 +0900</pubDate>
+-    <lastBuildDate>Wed, 27 Mar 2019 00:50:33 +0900</lastBuildDate>
++    <pubDate>Wed, 27 Mar 2019 01:00:10 +0900</pubDate>
++    <lastBuildDate>Wed, 27 Mar 2019 01:00:10 +0900</lastBuildDate>
+     <generator>Jekyll v3.8.5</generator>
+     
+       <item>
