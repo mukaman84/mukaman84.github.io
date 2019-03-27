@@ -75,4 +75,58 @@ GAN은 비정규성 이미지에서는 성능이 좋지 않다.
 
 post training??? 추후 볼 것
 
+5강 - AR/VR 분야에서 AI 얼굴인식, 영상인식 및 처리 탑재기술과 서비스 적용방안
+
+- AI engine : 카메라/센서 입력으로부터
+- AR engine : 실제에 가상물체 합성
+
+
+AR을 넣을때 실제 환경에 맞게 customize
+
+
+얼굴인식에 손동작 인식등을 결합하여 결제서비스까지 가능하도록 설계
+
+얼굴인식을 2D가 아닌 3D 정보를 얻도록 노력 -> 현실감있는 AR을 위해서
+
+
+Face detection -> Face Landmark estimation(regression) -> Face alignment -> emd
+
+Megaface DB
+KISA (한국인터넷진흥원) 인증완료
+NIST (미국국립표준과학연구소) 평가 진행 중 (Pre 결과 진행중)
+
+land mark의 수를 찾는 문제 -> 160개에서 22개로 확장중
+
+
+
+사용된 딥러닝 기술 : Fully convolutional Networks
+
+피씨에서는 3ms
+엑시노스 8895 갤럭시 S8 7ms
+
+
+3D header pose
+
+
+요새는 large margin loss를 많이 사용
+angular margin loss도 사용
+
+FRVT : 얼굴인식 대회
+cluster purity : 전체에서 구분된 클러스터가 얼마나 순수한지를 보여주는 지표
+
+표정인식 : 긍정, 중립, 부정 -> 색별로 표정인식하여 제공
+
+
+Hand analysis
+손 검출 : 영상 내에서 손의 bounding box를 찾기
+2D 손 골격: (Skeleton) 검출 :
+
+최종단계는 Hand analysis AR과 인터랙티브하게 적용
+
+
+
+
+
+
+
 
